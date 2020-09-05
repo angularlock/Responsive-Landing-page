@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./slick/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+    <title>Second Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-xl navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./img/Header/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active_item" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link firefox" id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">GALLERY</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">BED & BATH</span>
+                                            <a class="dropdown-item" href="#">SHOWER</a>
+                                            <a class="dropdown-item" href="#">BEDROOM</a>
+                                            <a class="dropdown-item" href="#">BATHROOM</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">OUTDOOR</span>
+                                            <a class="dropdown-item" href="#">TIO</a>
+                                            <a class="dropdown-item" href="#">GARDEN</a>
+                                            <a class="dropdown-item" href="#">AWNINGS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">KITCHEN/DINING</span>
+                                            <a class="dropdown-item" href="#">KITCHEN</a>
+                                            <a class="dropdown-item" href="#">HOME BAR</a>
+                                            <a class="dropdown-item" href="#">STOOLS & CHAIRS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">LIVING</span>
+                                            <a class="dropdown-item" href="#">SOFA</a>
+                                            <a class="dropdown-item" href="#">BEAN BAGS</a>
+                                            <a class="dropdown-item" href="#">COFFEE TABLES</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">FIND PROFESSIONALS</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">ARCHITECTURE</span>
+                                            <a class="dropdown-item" href="#">DESIGNERS</a>
+                                            <a class="dropdown-item" href="#">ARCHITECTS</a>
+                                            <a class="dropdown-item" href="#">CONTRACTORS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">PAINT</span>
+                                            <a class="dropdown-item" href="#">FENCES</a>
+                                            <a class="dropdown-item" href="#">ARTISTS</a>
+                                            <a class="dropdown-item" href="#">RUNNERS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">CLEANING</span>
+                                            <a class="dropdown-item" href="#">ROOF</a>
+                                            <a class="dropdown-item" href="#">HOUSE</a>
+                                            <a class="dropdown-item" href="#">BASEMENT</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">SOLAR</span>
+                                            <a class="dropdown-item" href="#">CARS</a>
+                                            <a class="dropdown-item" href="#">PANELS</a>
+                                            <a class="dropdown-item" href="#">BATTERIES</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">PRODUCTS</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">KITCHEN</span>
+                                            <a class="dropdown-item" href="#">POTS</a>
+                                            <a class="dropdown-item" href="#">KNIVES</a>
+                                            <a class="dropdown-item" href="#">CLASSES</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">BEDROOM</span>
+                                            <a class="dropdown-item" href="#">DECOR</a>
+                                            <a class="dropdown-item" href="#">SHEETS</a>
+                                            <a class="dropdown-item" href="#">POLLOWS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">SHOWER</span>
+                                            <a class="dropdown-item" href="#">SOAPS</a>
+                                            <a class="dropdown-item" href="#">MIRRORS</a>
+                                            <a class="dropdown-item" href="#">SHOWER HEADS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">GARDEN</span>
+                                            <a class="dropdown-item" href="#">TOOLS</a>
+                                            <a class="dropdown-item" href="#">PLANTS</a>
+                                            <a class="dropdown-item" href="#">APPLIANCES</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">STORIES & ADVICE</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">BED & BATH</span>
+                                            <a class="dropdown-item" href="#">SHOWER</a>
+                                            <a class="dropdown-item" href="#">BEDROOM</a>
+                                            <a class="dropdown-item" href="#">BATHROOM</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">OUTDOOR</span>
+                                            <a class="dropdown-item" href="#">TIO</a>
+                                            <a class="dropdown-item" href="#">GARDEN</a>
+                                            <a class="dropdown-item" href="#">AWNINGS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">KITCHEN/DINING</span>
+                                            <a class="dropdown-item" href="#">KITCHEN</a>
+                                            <a class="dropdown-item" href="#">HOME BAR</a>
+                                            <a class="dropdown-item" href="#">STOOLS & CHAIRS</a>
+                                        </div>
+                                        <div class="sub_menu col-lg-3">
+                                            <span class="title dropdown-item">LIVING</span>
+                                            <a class="dropdown-item" href="#">SOFA</a>
+                                            <a class="dropdown-item" href="#">BEAN BAGS</a>
+                                            <a class="dropdown-item" href="#">COFFEE TABLES</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SALE</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <a class="shoping"><span>1</span></a>
+                        <span class="user"><i class="fa fa-user-circle fa-3x" aria-hidden="true"></i></span>
+                        <button class="btn btn-light my-2 my-sm-0 d-flex" type="submit">SIGN IN<i
+                                class="fa fa-sign-in fa-2x" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <content>
+        <section class="hero_search">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="search col-lg-6">
+                        <div class="content-part">
+                            <div class="main_title">
+                                <p>Gallery</p>
+                                <h1>FIND NEW IMAGES FOR YOUR HOME</h1>
+                            </div>
+                            <div class="searth_form">
+                                <input type="text" class="form-control" placeholder="Type something...">
+                                <button class="btn btn-primary">SEARCH</button>
+                            </div>
+                        </div>
+                        <div class="diag-part">
+                            <div class="btnGroup">
+                                <button class="btn btn-gallery"><img src="./img/Hero_Search/gallery_unselected.png"
+                                        alt=""></button>
+                                <button class="btn btn-products"><img src="./img/Hero_Search/products_unselected.png"
+                                        alt=""></button>
+                                <button class="btn btn-professional"><img
+                                        src="./img/Hero_Search/professional_unselected.png" alt=""></button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="slick_slider col-lg-6 p-0">
+                        <div class="slider">
+                            <img class="img-fluid" src="./img/Gallery_Photo/layer1.png" alt="">
+                            <img class="img-fluid" src="./img/Gallery_Photo/layer2.png" alt="">
+                            <img class="img-fluid" src="./img/Gallery_Photo/Layer3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dream">
+            <div class="container">
+                <h2 class="title">CREATE THE HOME YOU'VE ALWAYS WANTED</h2>
+                <p class="description">Create warm and inviting modern home at all scales</p>
+                <div class="row">
+                    <div class="items col-lg-4">
+                        <img class="img-fluid" src="./img/dream/gallery.png" alt="gallery">
+                        <div class="design">
+                            <p class="sub_title">Discover Design Ideas</p>
+                            <p class="description">Browser more than 1.4 crore photos and filter based on your table</p>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4">
+                        <img class="img-fluid" src="./img/dream/professional.png" alt="professional">
+                        <div class="professional">
+                            <p class="sub_title">Find Home Professionals</p>
+                            <p class="description">Connect with local professionals who can help with your project</p>
+                        </div>
+                    </div>
+                    <div class="items col-lg-4">
+                        <img class="img-fluid" src="./img/dream/products.png" alt="products">
+                        <div class="products">
+                            <p class="sub_title">Products for Your Home</p>
+                            <p class="description">Decorate and design with products from our curated collection</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary">GET STARTED</button>
+            </div>
+        </section>
+        <section class="professional_services">
+            <div class="container-fluid">
+                <h2>SEARCH FOR PROFESSIONALS NEAR YOU</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option1.png"
+                            class="img-fluid mx-auto d-block" alt="img1">
+                        <p>Architects and Building Designers</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option2.png"
+                            class="img-fluid mx-auto d-block" alt="img2">
+                        <p>Interior Designers and Decorators</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option3.png"
+                            class="img-fluid mx-auto d-block" alt="img3">
+                        <p>Building and Construction Supplies</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option4.png"
+                            class="img-fluid mx-auto d-block" alt="img4">
+                        <p>Civil engineers and Contractors</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option5.png"
+                            class="img-fluid mx-auto d-block" alt="img5">
+                        <p>Kitchen & Bath Designers</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option1.png"
+                            class="img-fluid mx-auto d-block" alt="img1">
+                        <p>Architects and Building Designers</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option2.png"
+                            class="img-fluid mx-auto d-block" alt="img2">
+                        <p>Interior Designers and Decorators</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option3.png"
+                            class="img-fluid mx-auto d-block" alt="img3">
+                        <p>Building and Construction Supplies</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option4.png"
+                            class="img-fluid mx-auto d-block" alt="img4">
+                        <p>Civil engineers and Contractors</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src="./img/Professional_Services/option5.png"
+                            class="img-fluid mx-auto d-block" alt="img5">
+                        <p>Kitchen & Bath Designers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="image_gallery">
+            <section class="gallery1">
+                <div class="container">
+                    <div class="wide">
+                        <div class="image_part">
+                            <div class="strip">
+                                <div class="code">
+                                    <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="print">
+                                    <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="face">
+                                    <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="twitter">
+                                    <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="google">
+                                    <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="share">
+                                <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                            alt=""></i></button>
+                            </div>
+                            <button class="btn btn-light story">FULL STORY</button>
+                        </div>
+
+                        <div class="date">
+                            <p class="sub_date">JUL</p>
+                            <span>01</span>
+                        </div>
+                        <div class="function_part">
+                            <div class="main d-flex justify-content-between">
+                                <p class="title">Flooring</p>
+                                <div class="button_part">
+                                    <button class="btn btn-primary btn-block"><i><img class="img-fluid"
+                                                src="./img/mail.png" alt=""></i></i>
+                                        EMAIL</button>
+                                    <button class="btn btn-primary btn-block"><i><img class="img-fluid"
+                                                src="./img/plus_icon.png" alt=""></i>
+                                        SAVE</button>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Choose your best flooring pro in all states and counties</p>
+                            </div>
+                            <hr>
+                            <div class="hours d-flex justify-content-between">
+                                <div class="hour">
+                                    <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                </div>
+                                <div class="read_more">
+                                    <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panels">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="first">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>28</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Solar</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>Solar power to your home and property utilities grid network</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="second">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>29</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Paint</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>Indoor and Outdoor paint runners taking over walls and garden
+                                                        fences.</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>2 DAYS AGO / 29 JUNE 2018 / 322 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="third">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>30</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="video">
+                                            <p class="video_text">MY <span>DAPH</span>HUB RENOVATION SERIES</p>
+                                            <button class="btn_video btn btn-primary" data-toggle="modal"
+                                                data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+                                                data-target="#myModal"><img class="img-fluid"
+                                                    src="./img/video_logo.png">WATCH NOW
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery2">
+                <div class="container">
+                    <div class="wide">
+                        <div class="image_part">
+                            <div class="strip">
+                                <div class="code">
+                                    <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="print">
+                                    <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="face">
+                                    <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="twitter">
+                                    <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="google">
+                                    <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="share">
+                                <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                            alt=""></i></button>
+                            </div>
+                            <button class="btn btn-light story">FULL STORY</button>
+                        </div>
+                        <div class="date">
+                            <p class="sub_date">JUL</p>
+                            <span>01</span>
+                        </div>
+                        <div class="function_part">
+                            <div class="main d-flex justify-content-between">
+                                <p class="title">Lamps</p>
+                                <div class="button_part">
+                                    <button class="btn btn-primary btn-block"><i><img class="img-fluid"
+                                                src="./img/mail.png" alt=""></i></i>
+                                        EMAIL</button>
+                                    <button class="btn btn-primary btn-block"><i><img class="img-fluid"
+                                                src="./img/plus_icon.png" alt=""></i>
+                                        SAVE</button>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Wide selection of lamps for all the house rooms and spaces.</p>
+                            </div>
+                            <hr>
+                            <div class="hours d-flex justify-content-between">
+                                <div class="hour">
+                                    <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                </div>
+                                <div class="read_more">
+                                    <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panels">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="third">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="play" type="button" data-toggle="modal"
+                                        data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"><img
+                                            src="./img/Gallery2/play.png" alt=""></a>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>30</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="video">
+                                            <p class="video_text">MY <span>DAPH</span>HUB RENOVATION SERIES</p>
+                                            <button class="btn_video btn btn-primary" data-toggle="modal"
+                                                data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+                                                data-target="#myModal"><img class="img-fluid"
+                                                    src="./img/video_logo.png">WATCH NOW
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="second">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>29</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Shower</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>Your shower room reimaged in variety of beautiful decor.</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>2 DAYS AGO / 29 JUNE 2018 / 322 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="first">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>30</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Dining</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>Dining room tables and chairs to fit any style your house
+                                                        designed in.</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery3">
+                <div class="container">
+                    <div class="wide">
+                        <div class="image_part">
+                            <div class="strip">
+                                <div class="code">
+                                    <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="print">
+                                    <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="face">
+                                    <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="twitter">
+                                    <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="google">
+                                    <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="share">
+                                <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                            alt=""></i></button>
+                            </div>
+                            <div class="watch_video ">
+                                <a class="circle_video" data-toggle="modal"
+                                    data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
+                                    <img src="./img/Gallery3/play.png" alt="">
+                                </a>
+                                <button class="btn btn-light story" id="story" data-toggle="modal"
+                                    data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">WATCH
+                                    NOW</button>
+                            </div>
+                        </div>
+
+                        <div class="date">
+                            <p class="sub_date">JUL</p>
+                            <span>01</span>
+                        </div>
+                        <div class="function_part">
+                            <div class="main d-flex justify-content-between">
+                                <p class="title" id="title">My <span>DAPH</span><span>HUB</span> Renovation Series Video
+                                </p>
+                                <div class="button_part">
+                                    <button class="btn btn-primary btn-block"><i><img clas src="./img/mail.png"
+                                                alt=""></i>
+                                        EMAIL</button>
+                                    <button class="btn btn-primary btn-block"><i><img class="img-fluid"
+                                                src="./img/plus_icon.png" alt=""></i>
+                                        SAVE</button>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Watch this amazing video of our renovation series.</p>
+                            </div>
+                            <hr>
+                            <div class="hours d-flex justify-content-between">
+                                <div class="hour">
+                                    <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                </div>
+                                <div class="read_more">
+                                    <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panels">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="first">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>28</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Pet</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>Keeping your pets happy and content all summer long.</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="second">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>29</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Coffee</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>One on one with top barista Christian Smart about home brewing.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>2 DAYS AGO / 29 JUNE 2018 / 322 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="third">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>30</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Summer</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>All about summer joys of home cooking and self indulging.</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>3 DAYS AGO / 28 JUNE 2018 / 512 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="expert_help">
+                <div class="container">
+                    <p class="title">
+                        Get expert help with your home project
+                    </p>
+                    <div class="expert_slide">
+                        <div class="first">
+                            <p>Find Pros</p>
+                        </div>
+                        <div class="second">
+                            <p>Bathroom Remodeling</p>
+                        </div>
+                        <div class="third">
+                            <p>Kitchen Remodeling</p>
+                        </div>
+                        <div class="fourth">
+                            <p>Home Remodeling</p>
+                        </div>
+                        <div class="fifth">
+                            <p>Deck Building</p>
+                        </div>
+                        <div class="sixth">
+                            <p>Flooring Installation</p>
+                        </div>
+                        <div class="fourth">
+                            <p>Home Remodeling</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="gallery4">
+                <div class="container">
+                    <div class="wide">
+                        <div class="image_part">
+                            <div class="strip">
+                                <div class="code">
+                                    <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="print">
+                                    <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="face">
+                                    <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="twitter">
+                                    <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="google">
+                                    <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="share">
+                                <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                            alt=""></i></button>
+                            </div>
+                            <button class="btn btn-light story">FULL STORY</button>
+                        </div>
+                        <div class="date">
+                            <p class="sub_date">JUL</p>
+                            <span>01</span>
+                        </div>
+                        <div class="function_part">
+                            <div class="main d-flex justify-content-between">
+                                <p class="title">Pillows</p>
+                                <div class="button_part">
+                                    <button class="btn btn-primary btn-block"><i><img class="img-fluid"
+                                                src="./img/mail.png" alt=""></i>
+                                        EMAIL</button>
+                                    <button class="btn btn-primary btn-block"><i><img class="img-fluid"
+                                                src="./img/plus_icon.png" alt=""></i>
+                                        SAVE</button>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>The largest sales this month of pillows and bedroom comforts</p>
+                            </div>
+                            <hr>
+                            <div class="hours d-flex justify-content-between">
+                                <div class="hour">
+                                    <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                </div>
+                                <div class="read_more">
+                                    <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panels">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="first">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>28</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Pet</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>Keeping your pets happy and content all summer long.</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>12 HOURS AGO / 1 JULY 2018 / 124 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="second">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>29</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Coffee</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>One on one with top barista Christian Smart about home brewing.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>2 DAYS AGO / 29 JUNE 2018 / 322 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="third">
+                                    <div class="image_part">
+                                        <div class="strip">
+                                            <div class="code">
+                                                <button><i class="fa fa-code 2x" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <div class="print">
+                                                <button><i class="fa fa-print" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="face">
+                                                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="twitter">
+                                                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                                            </div>
+                                            <div class="google">
+                                                <button><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="share">
+                                            <button><i class="btn_share"><img class="img-fluid" src="./img/unshare.png"
+                                                        alt=""></i></button>
+                                        </div>
+                                        <div class="hoveredimage">
+                                            <div class="haveredimagewrapper text-center">
+                                                <img src="img/Header/logo.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <p class="sub_date">JUN</p>
+                                        <span>30</span>
+                                    </div>
+                                    <div class="function_part">
+                                        <div class="main">
+                                            <div class="text_part">
+                                                <div class="title d-flex justify-content-between">
+                                                    <p>Summer</p>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/mail.png" alt=""></i>
+                                                            EMAIL</button>
+                                                        <button class="btn btn-primary btn-block"><i><img
+                                                                    src="./img/plus_icon.png" alt=""></i>
+                                                            SAVE</button>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p>All about summer joys of home cooking and self indulging.</p>
+                                                </div>
+                                            </div>
+                                            <div class="read_more">
+                                                <button class="btn btn-light">READ MORE<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></button>
+                                            </div>
+                                            <hr>
+                                            <div class="hour">
+                                                <p>3 DAYS AGO / 28 JUNE 2018 / 512 SAVES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <!-- 16:9 aspect ratio -->
+                                                    <div class="embed-responsive embed-responsive-16by9">
+                                                        <iframe class="embed-responsive-item" src="" id="video"
+                                                            allowscriptaccess="always" allow="autoplay"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </section>
+        <div class="scrollToTop">
+            <i class="fa fa-angle-up"></i>
+            <p>TOP</p>
+        </div>
+    </content>
+    <footer>
+        <div class="form-group">
+            <span class="earth"></span>
+            <select class="selectpicker show-tick">
+                <option>ENGLISH(UK)</option>
+                <option>ENGLISH(US)</option>
+                <option>FRENCH</option>
+                <option>DEUCHE</option>
+                <option>SPANISH</option>
+            </select>
+            <span class="toggle-icon"></span>
+        </div>
+        <div class="footer_text">
+            <div class="container">
+                <nav class="footer_list navbar">
+                    <ul class="d-flex">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">FIND PROFESSIONALS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">SOTRIES & ADVICE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">SALE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">TERMS & PRIVACY</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="info">
+            <p>COPYRIGHT © 2018 DAPH HUB, ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+</body>
+<script src="./bootstrap/jquery-3.5.0.min.js"></script>
+<script src="./bootstrap/propper.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<script src="./slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+<script src="main.js"></script>
+
+</html>
